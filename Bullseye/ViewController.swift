@@ -17,8 +17,13 @@ class ViewController: UIViewController {
 
     // show alert
     
+    
+    @IBAction func startOver(_ sender: Any) {
+        print('button has been pressed')
+    }
+    
     @IBAction func sliderMoved(_ sender: UISlider) {
-         print("The value of the slider is now: \(slider.value)")
+         print("The value of the slider is now: \(sender.value)")
     }
     @IBAction func showAlert(_ sender: Any) {
         let alert = UIAlertController(title: "Hello, World",
