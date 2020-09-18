@@ -19,7 +19,7 @@ class ViewController: UIViewController {
     
     
     @IBAction func startOver(_ sender: Any) {
-        print('button has been pressed')
+        print("button has been pressed")
     }
     
     @IBAction func sliderMoved(_ sender: UISlider) {
